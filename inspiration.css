@@ -1,0 +1,71 @@
+.inspiration .date {
+	font-size: 60%;
+	color: #666;
+}
+
+.shot-frame {
+	width: 260px;
+	height: 183px;
+	background: url('../images/shot-frame.png') no-repeat top left transparent;
+	padding: 5px;
+	float: right;
+	margin-left: 10px;
+}
+
+.save-later {
+	border: 1px solid #cdcdcd;
+	background: #eee;
+	padding: 7px 15px 5px 15px;
+	margin-bottom: 16px;
+}
+
+.save-later a {
+	color: #cc0001;
+	padding: 4px 0 0 0;
+}
+
+#send {
+	float: left;
+}
+
+.save-later .twitter-share-button {
+	margin-left: 25px;
+}
+
+.save-later .left a , .save-later .left div ,.save-later .left .twitter-share-button{
+	float:left ;
+}
+
+.save-later .left div.fb-send{
+	margin-left: 10px;
+}
+
+.inspiration #results p {
+	margin: 0px;
+}
+
+p.inspiration-header {
+	color: #ca0001;
+	margin: 0 0 20px 0;
+	padding: 0px;
+	
+}
+.inspiration a.backlink {
+	margin-right: 32px;
+}
+
+blockquote {
+	width: 396px;
+	min-height: 30px;
+	padding: 0px 30px 0px 30px;
+	margin: 10px 0;
+	background: url('../images/blockquote.png') top left no-repeat #fff;
+	font-size: 150%;
+	color: #ca0001;
+	font-style: italic;
+	line-height: 120%;
+}
+
+div.inspiration{
+	overflow: visible;
+}

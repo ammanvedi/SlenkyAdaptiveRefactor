@@ -1,0 +1,277 @@
+/* opportunities */
+
+.gridbox {
+	width: 960px;
+	position: relative;
+	left: -5px;
+	top: -10px;
+}
+
+.opp {
+	width: 110px;
+	height: 100px;
+	margin: 5px 10px 5px 0;
+	float: left;
+	display: inline;
+}
+
+.opp a {
+	width: 110px;
+	height: 100px;
+}
+.opp-box {
+	width: 960px;
+	height: 330px;
+	float: left;
+}
+.opp-overlay {
+	display: none;
+}
+
+.opp-title {
+	font-weight: bold;
+}
+
+.opp-more {
+	background: #cc0001;
+	width: 1005px;
+	color: #fff; 
+}
+
+.opp:hover {
+	display: inline;
+}
+
+.want-btn {
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 10px 10px 10px;
+	width: 204px;
+	height: 28px;
+	font-size: 16px;
+	color: #ffffff;
+	padding: 12px 0px 0px 0px;
+	background: -moz-linear-gradient(top, #ca0000 0%, #7a0000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ca0000), to(#7a0000));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ca0000', endColorstr='#7a0000');
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #494651;
+	-moz-box-shadow: 0px 2px 4px rgba(000,000,000,0.5), inset 0px 1px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow: 0px 2px 4px rgba(000,000,000,0.5), inset 0px 1px 1px rgba(255,255,255,0.7);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0.4), 0px 1px 0px rgba(255,255,255,0.3);
+}
+
+a.want-btn {
+	text-decoration: none;
+}
+
+a.want-btn:active,
+a.want-btn:visited,
+a.want-btn:hover {
+	color: #fff;
+	text-decoration: underline;
+	background: -moz-linear-gradient(top, #7a0000 0%, #ca0000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ca0000), to(#7a0000));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ca0000', endColorstr='#ya0000');
+
+}
+
+.want-btn.first {
+	margin-left: 30px;
+}
+
+.want-more {
+	float: right;
+	margin-right: 40px;
+/*	background: url('/images/icons/down-arrow.png') no-repeat 35px */
+}
+
+.latest-tweet {
+	margin-top: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.latest-tweet p {
+	font-size: 150%;
+	color: #cc0001;
+	line-height: 22px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.latest-tweet p.time {
+	font-size: 120%;
+	color: #ccc;
+	padding: 8px;
+}
+
+p.tweet-right {
+	float: right;
+	padding: 10px 0 0 0;
+	margin: 0px;
+}
+
+p.tweet-right a {
+	color: #cc0001;
+}
+
+p.tweet-right a:hover {
+	text-decoration: underline;
+}
+
+.latest-tweet a {
+	color: #a0a0a0;
+}
+
+.left {
+	float: left;
+	
+}
+
+.latest-tweet img {
+	margin-right: 5px;
+}
+
+.opp-page {
+	width: 950px;
+}
+
+.opp-page img {
+	margin: 0 auto;
+	display: block;
+}
+
+.slides_container {
+	width: 960px;
+	height: 330px;
+}
+.slides_container div.slide {
+	width: 960px;
+	height: 330px;
+	display: block;
+}
+
+#slides .next, #slides .prev {
+	display: block;
+	height: 43px;
+	left: -17px;
+	position: relative;
+	top: -184px;
+	width: 24px;
+	z-index: 101;
+	float: left;
+}
+#slides .next {
+	left: 930px;
+}
+
+.pagination {
+	margin: 8px auto 7px auto;
+	width: 100px;
+}
+
+ul.pagination {
+	list-style-type: none !important;
+	padding: 0;
+}
+
+.pagination li a {
+	background-image: url("../images/pagination.png");
+	background-position: 0 0;
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 12px;
+	width: 12px;
+}
+
+.pagination li.current a {
+	background-position: 0 -12px;
+}
+
+.want-more-drop {
+	display: block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #ca0001;
+	background: #fff;
+	color: #ca0001;
+}
+
+.want-more-drop a:hover,
+.want-more-drop a {
+	text-decoration: none;
+}
+
+.inner.inspiration {
+	width: 316px;
+	margin-top: -5px;
+}
+.inspiration.last {
+	width: 316px;
+}
+
+.inspiration .meta {
+	color: #adabac;
+	padding-top: 4px;
+	padding-right: 10px;
+	font-size: 90%;
+	margin-left: 93px;
+}
+
+.inspiration .body p {
+	margin: 15px 0 0 0;
+	padding-bottom: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+.inspiration .body {
+	color: #666;
+	padding-right: 10px;
+	margin-left: 93px;
+	padding-bottom: 0;
+}
+.inspiration .title {
+	font-size: 100%;
+	color: #ca0001;
+	padding-right: 10px;
+	font-weight: bold;
+	margin-left: 93px;
+}
+
+#slides {
+	margin-top: -15px;
+}
+
+.more, .more a:active, .more a:visited,
+.more a:hover,
+.more a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p.inspiration-meta {
+	padding: 0;
+	margin: 0;
+	height: 16px;
+	color: #848693;
+}
+.featured-shot span.image {
+	clear: both;
+}
+
+.featured-shot img {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	left: 10px;
+	margin: 0;
+	padding: 2px !important;
+	width: 505px;
+	height: 199px;
+}

@@ -1,0 +1,106 @@
+#what-is-slenky {
+	width: auto;
+}
+	#what-is-slenky .content {
+		width: 900px;
+		margin: 0px auto;
+	}
+	#what-is-slenky h3 {
+		color: red;
+	}
+	#what-is-slenky h6 {
+		font-size: 16px;
+		line-height: 1.5em;
+		font-weight: normal;
+		margin: 0px;
+	}
+	#what-is-slenky .first {
+		padding-top: 45px;
+	}
+	
+#why-is-slenky {
+	float: left;
+	margin: 25px;
+}
+
+#using-slenky {
+	display: block;
+	overflow: auto;
+	width: 900px;
+	margin: 0;
+	padding: 96px 0 0 0;
+	background: url(../images/what-is-slenky/using-slenky.jpg) no-repeat 0 0;
+	list-style: none;
+}
+	#using-slenky li {
+		display: block;
+		float: left;
+		width: 90px;
+		margin-right: 45px;
+		text-align: center;
+	}
+	#using-slenky li.last {
+		margin: 0;
+	}
+
+#bottom-nav {
+	display: block;
+	overflow: auto;
+	width: 900px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	#bottom-nav li {
+		display: block;
+		float: left;
+		width: 183px;
+		height: 234px;
+		margin-right: 23px;
+		padding: 12px;
+		background: #bfbfbf;
+		font-size: 12px;
+	}
+	#bottom-nav a.nav-image {
+		display: block;
+		margin-bottom: 15px;
+		font-size: 20px;
+		color: #fff;
+		text-decoration: none;
+	}
+		#bottom-nav a.nav-image:hover {
+			text-decoration: underline;
+		}
+		#bottom-nav a.nav-image span {
+			display: block;
+			height: 84px;
+			margin-bottom: 10px;
+			border: 2px solid #dadada;
+			background: url(../images/what-is-slenky/nav-thumbnail.jpg) no-repeat;
+		}
+		#bottom-nav a.nav-image:hover span {
+			border-color: #fff;
+		}
+	#bottom-nav-shots {}
+		#bottom-nav-shots a.nav-image span {
+			background-position: 0 0;
+		}
+	#bottom-nav-inspirations {}
+		#bottom-nav-inspirations a.nav-image span {
+			background-position: 0 -84px;
+		}
+	#bottom-nav-events {}
+		#bottom-nav-events a.nav-image span {
+			background-position: 0 -168px;
+		}
+	#bottom-nav-competitions {
+		margin: 0 !important;
+	}
+		#bottom-nav-competitions a.nav-image span {
+			background-position: 0 -252px;
+		}
+
+hr {
+	margin-bottom: 15px;
+	clear: both;
+}

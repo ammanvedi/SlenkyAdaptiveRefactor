@@ -1,0 +1,118 @@
+h3.inner-header {
+	background: url('../images/user/inner-header.png') no-repeat;
+	width: 225px;
+	height: 40px;
+	color: #fff;
+	font-weight: normal;
+	padding: 8px;
+	font-size: 130%;
+	margin: 0;
+}
+.zebra {
+	background: #eee;
+}
+/*
+.columns_2 .left_col,
+.columns_1 .left_col  { width:716px; float:left; margin-right:8px; overflow: visible; }
+
+.columns_2 .right_col,
+.columns_1 .right_col  { width:256px; float:left; overflow: visible; }
+*/
+.image-bg {
+	width: 213px;
+	height: 107px;
+	background: url('../images/all-shots-background-nostars.png') no-repeat top left;
+	float: left;
+	margin: 7px;
+	display: block;
+}
+.float-left { float: left; }
+.float-right { float: right; }
+.form-filter select { width: 133px; }
+.border { border: solid 1px #CCC; }
+.gray-bg { background: gray; }
+.dotline-under { border-bottom: dotted 1px #CCC; width: 100%; }
+.pager { margin:0; padding:0; font-size: 11px !important; }
+.pager li { float:left; list-style:none; border: solid 1px #ccc; padding: 5px; }
+.see-all{ text-align:right; display:block !important; }
+
+.events-listing { margin: 30px 0 0 0 ; padding:0 !important;  }
+.event-listing { margin: 0 0 0 0; padding:0 !important; }
+#events-listing li { list-style: none; display: inline-block; padding-bottom: 10px; padding-top: 10px; }
+#events-listing li h3 { color: #CC0001; padding:0; margin:0; font-size: 18px; }
+#events-listing li h3 a{ text-decoration: none; }
+#events-listing li .date { color: #000; font-size: 11px; padding:0; margin:5px 0 10px 0; }
+#events-listing li .image-border-shadow { background: url('../images/events-frame.png') no-repeat top left; width: 265px; height: 189px; padding: 5px; }
+#events-listing li .description { margin:0 0 20px 0; padding:0; float: right; width: 410px; }
+#events-listing li .description li strong{ width:130px; float:left; }
+#events-listing li .description li { font-size: 13px; padding: 2px 0 2px 5px; margin: 0px; display: block; }
+#events-listing li .detail { font-size:12px; margin: 0 0 20px 0; padding: 0; }
+#events-listing .thumbnail-list { border:#CCC solid 1px; float: left; width: 400px; }
+#events-listing .thumbnail-list strong { float: left; width: 100px; font-size: 12px; margin: 7px 0 13px 7px; }
+#events-listing .thumbnail-list ul { margin:0; padding:0; float:right; }
+#events-listing .thumbnail-list ul li{ float:left; margin: 3px; padding: 0; }
+#events-listing .register-area { float:right; background: #eee; width: 270px; text-align:center; border: solid 1px #ccc;}
+#events-listing .register-area a {float: none; display: inline-block; margin: 5px;}
+ 
+.latest-listing {
+	margin:0!important; padding:0!important; list-style:none !important;
+	width: 258px;
+	left: -15px;
+	position: relative;
+	top: -15px;
+}
+.latest-listing img{ float:left; margin-right: 5px; }
+.latest-listing p{ margin:0; padding:0; font-size: 11px; }
+.latest-listing li { margin:0 !important; padding: 10px; display: inline-block; }
+
+.informed-listing { margin:0; padding:0; list-style:none !important; }
+.informed-listing li { font-size: 12px; display: inline-block; }
+.informed-listing li span { top: -5px; position: relative; padding:0 5px 0 0; width: 24px; height: 24px; display: block; float: left;}
+.informed-listing li .facebook-icon { background: url('../images/icon-fb-24x24.png') no-repeat top left;}
+.informed-listing li .twitter-icon { background: url('../images/icon-tw-24x24.png') no-repeat top left;}
+
+#share-modal {
+	background: #ca0001;
+}
+
+a.share {
+	cursor: pointer;
+}
+
+form.share input[type=text] {
+	width: 244px;
+	height: 22px;
+	font-size: 12px;
+	padding: 0 0px 0px 8px;
+	border: 1px solid #333;
+	margin-bottom: 5px;
+	color: #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: inset 3px 3px 4px #8b8b8b;
+	-webkit-box-shadow: inset 3px 3px 4px #8b8b8b;
+	box-shadow: inset 3px 3px 4px #8b8b8b;
+
+}
+
+form.share label {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 3px;
+}
+
+form.share label span {
+	width: 80px;
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+}
+
+form.share p {
+	font-size: 14px;
+}
+
+form.share p a {
+	color: #fff;
+}
