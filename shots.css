@@ -533,6 +533,103 @@ form.share p a {
 
 @media (max-device-width : 568px) {
 
+span.title{
+display: block !important;
+	padding-left: 10px;
+	width: 230px !important;
+	
+}
+
+.search-result a span.title{
+position: relative !important;
+top: 110px !important;
+
+width: 230px !important;
+	
+	
+}
+
+.search-result.title.image{
+	
+	
+}
+
+.search-result{
+	height: 200px;
+	padding: 0px;
+	width: 240px;
+	margin-left: 25px;
+	
+}
+
+.search-result p{
+	position: relative;
+	top: 120px;
+	max-width: 230px;
+	margin-left: 10px;
+}
+
+.shot-hover-background{
+	
+	opacity: 0.5;
+}
+
+
+
+.right_col{
+	
+	width: 100% !important;
+	overflow: hidden !important;
+}
+
+.shot{
+	
+	margin: 0px;
+}
+
+.latest-block{
+	
+	display: none;
+}
+
+.shot.left{
+float: left;
+width: 213px !important;
+height: 107px !important;
+	
+	
+}
+
+.shot.middle{
+	float: left;
+	margin: 0px;
+}
+
+.shot.right{
+	float: left;
+	
+}
+
+.shot-hover{
+	
+	display: block !important;
+	left: 0px ;
+}
+
+.block{
+	
+	width: 300px !important;
+	
+}
+
+.left_col{
+	width: 100% !important;
+	height: 240px;
+	margin-bottom: 20px;
+	overflow-y: hidden !important;
+	
+}
+
 #save{
 	
 	display: none;
@@ -667,10 +764,7 @@ margin-left: -127px;
 	width: 100% !important;
 }
 
-.block{
-	
-	width: 100% !important;
-}
+
 
 #results iframe{
 	

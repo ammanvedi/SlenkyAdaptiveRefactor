@@ -69,3 +69,106 @@ blockquote {
 div.inspiration{
 	overflow: visible;
 }
+
+
+@media (max-device-width : 568px) {
+
+span.date{
+	
+	font-size: 15px !important;
+	padding-top: 10px !important;
+	display: block;
+}
+
+.leader{
+	
+	font-size: 20px !important;
+	line-height: 20px;
+width: 260px !important;
+padding: 0px !important;
+margin: 0 auto !important;
+padding-top: 10px !important;
+text-align: center;
+left: 0px !important;
+}
+
+.save-later{
+	
+	display: none;
+}
+
+.no-margin.left_col{
+	
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 270px;
+}
+
+.block.inspiration{
+	width: 300px !important;
+	padding: 0px !important;
+}
+	.inspiration-header{
+		
+		width: 140px !important;
+		white-space: nowrap;
+		overflow: hidden;
+		margin: 0px !important;
+		margin-bottom: 10px;
+		height: 50px;
+		margin-left: 10px !important;
+		padding-top: 10px !important;
+		
+	}
+	
+	.inspiration p {
+		max-width: 260px;
+		margin: 10px auto;
+		font-size: 18px;
+		line-height: 20px;
+		
+	}
+	
+	blockquote{
+		
+		width: 205px;
+		background-size: contain;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	
+	.left iframe{
+		
+		height: 200px;
+		width: 230px;
+
+	}
+	
+	.inspiration div.right{
+		
+		float: none;
+		width: 260px !important;
+		margin: 20px auto;
+	}
+	
+	.inspiration div.right div{
+		
+		width: 80px !important;
+		float: left;
+		margin-left: 5px !important;
+	}
+	
+	.inspiration div.left{
+		
+		float: none;
+		overflow: hidden;
+		margin: 0 auto !important;
+	}
+	
+	img[src="/images/play_small.png"]{
+		
+		display: none;
+	}
+
+
+}
