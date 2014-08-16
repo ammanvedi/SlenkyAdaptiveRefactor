@@ -1471,6 +1471,20 @@ display: none;
 	height: 200px !important;
 }
 
+.slides_control{
+	
+	height: 130px !important;
+	z-index: 100 !important;
+	display: block !important;
+}
+
+.slides_control div{
+	
+	height: 130px !important;
+	z-index: 100 !important;
+	
+}
+
 .about-slenky{
 	
 	display: none;

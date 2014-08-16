@@ -88,3 +88,48 @@
 	position: relative;
 }
 
+@media (max-device-width : 568px) {
+
+.left_col{
+	
+	height: 100px;
+}
+
+
+
+.search-result::after{
+	
+	display: inline-block;
+}
+
+.search-result .title::after{
+	
+	display: inline-block !important;
+	
+}
+
+.search-result .title .title{
+	
+	
+	display: inline-block !important;
+	left: -250px !important;
+}
+
+.teaser{
+	
+	
+	display: inline-block !important;
+	left: -230px !important;
+}
+
+
+.search-result .title .image::after{
+	
+	float: left !important;
+	display: block !important;
+	
+}
+
+
+}
+

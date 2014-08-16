@@ -533,30 +533,36 @@ h2 small a.newmsg:hover {
 
 @media (max-device-width : 568px) {
 
-.modal-body form{
+	sub{
+	
+	line-height: 20px;
+	width: 240px !important;
+	}
+	
+	.modal-body form{
 	
 	width: auto !important;
-}
-
-.modal-body form#apply{
+	}
+	
+	.modal-body form#apply{
 	
 	width:10px !important;
-}
-
-		.modal.wide{
-			
-			width: 300px !important;
-			margin: 0 auto;
-			left: 10px !important;
-			top: 40px !important;
-		}
+	}
+	
+	.modal.wide{
+	
+	width: 300px !important;
+	margin: 0 auto;
+	left: 10px !important;
+	top: 40px !important;
+	}
 		
-		#intro{
-			
-			width: 230px !important;
-			height: 170px;
-			font-size: 20px;
-		}
+	#intro{
+	
+	width: 230px !important;
+	height: 170px;
+	font-size: 20px;
+	}
 
 		
 }

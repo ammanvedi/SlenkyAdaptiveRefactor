@@ -1,0 +1,61 @@
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+#competition-term{
+	display: none;
+} 
+
+#apply-modal{
+	width: 400px;
+}
+
+#share-modal {
+	background: #ca0001;
+}
+
+a.share {
+	cursor: pointer;
+}
+
+form.share input[type=text] {
+	width: 244px;
+	height: 22px;
+	font-size: 12px;
+	padding: 0 0px 0px 8px;
+	border: 1px solid #333;
+	margin-bottom: 5px;
+	color: #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: inset 3px 3px 4px #8b8b8b;
+	-webkit-box-shadow: inset 3px 3px 4px #8b8b8b;
+	box-shadow: inset 3px 3px 4px #8b8b8b;
+
+}
+
+form.share label {
+	font-size: 14px;
+	line-height: 14px;
+	padding: 3px;
+}
+
+form.share label span {
+	width: 80px;
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+}
+
+form.share p {
+	font-size: 14px;
+}
+
+form.share p a {
+	color: #fff;
+}

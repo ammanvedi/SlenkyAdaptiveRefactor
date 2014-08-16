@@ -116,3 +116,51 @@ form.share p {
 form.share p a {
 	color: #fff;
 }
+
+@media (max-device-width : 568px) {
+
+	.event-listing h3{
+		
+		text-align: center !important;
+	}
+	
+	.event-listing .date{
+		
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+	
+	.event-listing .image-border-shadow{
+		
+		float: none;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 10px;
+	}
+	
+	ul .description{
+		width: 100% !important;
+		display: inline-block;
+		
+	}
+	
+	p.detail{
+		width: 100%;
+		display: block;
+		margin: 0 auto !important;
+		text-align: center;
+	}
+	
+	.event-listing p{
+		
+		
+	}
+	
+	.description li{
+		font-size: 15px !important;
+		padding: 5px !important;
+		
+	}
+
+
+}
