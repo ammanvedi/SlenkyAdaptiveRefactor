@@ -73,6 +73,11 @@ div.inspiration{
 
 @media (max-device-width : 568px) {
 
+.relate{
+	
+	width: 270px !important;
+}
+
 span.date{
 	
 	font-size: 15px !important;

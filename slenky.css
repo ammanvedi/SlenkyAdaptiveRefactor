@@ -1303,6 +1303,13 @@ hr {
 
 @media (max-device-width : 568px) {
 
+
+.left_col{
+	
+	box-shadow: none !important;
+}
+
+
 .col3{
 	
 	width: 100% !important;
@@ -1468,7 +1475,7 @@ display: none;
 }
 
 .slides_container{
-	height: 200px !important;
+	height: 230px !important;
 }
 
 .slides_control{
@@ -1684,6 +1691,7 @@ height: 70px;
 background: none;
 	 margin-left: auto;
 	 margin-right: auto;
+	
 	 
 }
 

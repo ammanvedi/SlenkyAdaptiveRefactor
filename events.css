@@ -119,6 +119,27 @@ form.share p a {
 
 @media (max-device-width : 568px) {
 
+#alert-modal{
+	
+	width: 290px !important;
+	left:220px;
+	z-index: 1000;
+}
+
+.modal-body{
+	
+	width: 270px !important;
+	padding-top: 30px !important;
+}
+
+.relate{
+	
+	margin: 0 auto;
+	width: 270px !important;
+	height: 400px;
+	margin-bottom: 10px;
+}
+
 	.event-listing h3{
 		
 		text-align: center !important;
