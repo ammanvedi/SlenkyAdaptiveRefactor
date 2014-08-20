@@ -531,7 +531,50 @@ form.share p a {
 	margin-bottom: 5px;
 }
 
+
+/*
+// Slenky Adaptive Refactor
+// The following CSS will override the standard
+// at the specified resolutions
+// Author : Amman Vedi
+// Contact : Amman.Vedi@gmail.com
+// Source : git/SlenkyAdaptiveRefactor
+*/
+
 @media (max-device-width : 568px) {
+
+.relate{
+	
+	margin: 0 auto;
+	height: 200px;
+}
+
+.relate .search-result{
+	
+	padding: 0px;
+	height: 100px;
+}
+
+.relate .search-result a span.title{
+display: inline-block !important;
+width: 100px !important;
+top: 20px !important;
+z-index: 1000;
+}
+
+.relate .search-result a span.image{
+display: inline-block !important;
+width: 100px !important;
+position: relative;
+top: -10px !important;
+}
+
+
+#shotfilter {
+	
+	padding-left: 50px !important;
+	
+}
 
 span.title{
 display: block !important;
@@ -671,7 +714,7 @@ height: 107px !important;
 
 .left_col{
 	width: 100% !important;
-	height: 240px;
+	height: 200px !important;
 	margin-bottom: 20px;
 	overflow-y: hidden !important;
 	-moz-box-shadow: 0 1px 2px black;

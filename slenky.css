@@ -1301,7 +1301,27 @@ hr {
 }
 
 
+/*
+// Slenky Adaptive Refactor
+// The following CSS will override the standard
+// at the specified resolutions
+// Author : Amman Vedi
+// Contact : Amman.Vedi@gmail.com
+// Source : git/SlenkyAdaptiveRefactor
+*/
+
 @media (max-device-width : 568px) {
+
+#register-modal{
+	
+	padding-left: 50px !important;
+	overflow: hidden;
+}
+
+.right_col{
+	
+	width: 300px;
+}
 
 
 .left_col{
@@ -1585,6 +1605,7 @@ height: 70px;
 	width: 50px !important;
 	float: right !important;
 	margin: 0px !important;
+	margin-right: 20px !important;
 	
 }
 
@@ -1611,7 +1632,7 @@ height: 70px;
 	
 }
 
-/* @group Untitled Group */
+
 
 .nav{
 	
@@ -1625,7 +1646,7 @@ height: 70px;
 	
 }
 
-/* @end */
+
 
 .hover{
 	float: left;

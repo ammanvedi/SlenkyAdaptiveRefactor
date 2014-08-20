@@ -277,8 +277,14 @@ p.inspiration-meta {
 }
 
 
-
-
+/*
+// Slenky Adaptive Refactor
+// The following CSS will override the standard
+// at the specified resolutions
+// Author : Amman Vedi
+// Contact : Amman.Vedi@gmail.com
+// Source : git/SlenkyAdaptiveRefactor
+*/
 @media (max-device-width : 568px) {
 
 a.want-btn{

@@ -528,8 +528,14 @@ h2 small a.newmsg:hover {
 	min-height: 739px;
 }
 
-
-
+/*
+// Slenky Adaptive Refactor
+// The following CSS will override the standard
+// at the specified resolutions
+// Author : Amman Vedi
+// Contact : Amman.Vedi@gmail.com
+// Source : git/SlenkyAdaptiveRefactor
+*/
 
 @media (max-device-width : 568px) {
 
